@@ -11,4 +11,5 @@ services:
       - PORT=80
     build: 
       context: ./video-streaming
+      platform: linux/amd64
       dockerfile: Dockerfile
